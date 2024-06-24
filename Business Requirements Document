@@ -1,0 +1,70 @@
+System Components and Design
+Purpose
+The purpose of this project is to design a system for DriverPass that provides students with access to online practice exams and on-the-road training to better prepare them for driving tests.
+DriverPass wants the system to reduce the high failure rate of students taking their driving tests by offering comprehensive training and practice options.
+System Background
+DriverPass wants the system to provide a platform for students to take online classes, practice tests, and schedule on-the-road training.
+The problem DriverPass wants to fix is the high failure rate of students taking their driving license exam due to inadequate preparation.
+Components needed for this system include a user interface for students and administrators, a backend database for storing user information and test results, and a secure login system.
+Objectives and Goals
+Enable students to take practice exams online.
+Facilitate scheduling and tracking of on-the-road training sessions.
+Track student progress and provide feedback.
+Provide a user-friendly interface accessible via web browsers and mobile devices.
+Ensure secure storage and transmission of user data.
+
+Requirements
+Nonfunctional Requirements
+Performance Requirements
+The system needs to run as a web-based application.
+The system should respond within 2 seconds for any user action.
+The system should be updated bi-monthly to ensure it runs smoothly and securely.
+
+Platform Constraints
+The system should run on Windows, Unix, and MacOS platforms.
+The backend requires a relational database management system (RDBMS) like MySQL or PostgreSQL.
+
+Accuracy and Precision
+The system will distinguish between different users by their unique user IDs.
+Input is case-sensitive to maintain data integrity.
+The system should notify the admin if there are three consecutive login failures.
+
+Adaptability
+Users can be added, removed, or modified without changing the code through an admin interface.
+The system should be adaptable to platform updates with minimal downtime.
+IT admins need access to all system settings and user data for maintenance and troubleshooting.
+
+Security
+Users are required to log in with a username and password.
+Secure connections will be ensured using HTTPS for data exchange.
+Accounts will be locked for 15 minutes after five failed login attempts.
+Users will have the option to reset their passwords through a secure email link.
+
+Functional Requirements
+Validate user credentials when logging in.
+Allow users to take practice exams online.
+Enable administrators to schedule on-the-road training sessions.
+Track and report student progress.
+Provide feedback to students based on their practice exam results.
+Enable administrators to manage user accounts.
+
+User Interface
+The user interface needs to be intuitive and user-friendly.
+Users of the interface include students and administrators.
+Students will need to take practice exams, view results, and schedule training sessions.
+Administrators will need to manage user accounts, schedule training sessions, and track student progress.
+The interface should be accessible via web browsers on desktops, tablets, and mobile devices.
+
+Assumptions
+The system assumes that users will have access to a stable internet connection.
+It is assumed that users will have basic computer literacy skills.
+The system assumes that the backend database will be regularly maintained by IT staff.
+
+Limitations
+The system may be limited by the budget allocated for development and maintenance.
+The timeline for development may be constrained by the availability of key personnel.
+The system may have limitations in terms of scalability if user demand exceeds initial projections.
+
+Gantt Chart
+ 
+
