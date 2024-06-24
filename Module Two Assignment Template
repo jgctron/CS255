@@ -1,0 +1,28 @@
+Functional Requirements
+Functional Requirement	Rationale for Requirement	Source(s), APA format
+User Account Management	Allows administrators to create, modify, and delete user accounts, ensuring that only authorized users have access to the system.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Course Content Management	Enables instructors to upload, organize, and update course materials, providing students with access to up-to-date information.	VironIT. (n.d.). Functional vs Non-functional Requirements: Examples and Types. Retrieved from https://vironit.com/functional-vs-non-functional-requirements-examples-and-types
+Gradebook Functionality	Facilitates the recording and calculation of student grades, allowing students to track their academic progress.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Discussion Forums	Provides a platform for students and instructors to engage in discussions, enhancing collaborative learning.	Agente. (n.d.). 10 Vital LMS Requirements: A Full Checklist. Retrieved from https://agentestudio.com/blog/10-vital-lms-requirements-full-checklist
+Assignment Submission and Feedback	Allows students to submit assignments electronically and receive feedback, streamlining the grading process.	VironIT. (n.d.). Functional vs Non-functional Requirements: Examples and Types. Retrieved from https://vironit.com/functional-vs-non-functional-requirements-examples-and-types
+Integrated Messaging System	Facilitates communication between students and instructors, improving the overall learning experience.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Nonfunctional Requirements
+Nonfunctional Requirement	Rationale for Requirement	Source(s), APA format
+Scalability	Ensures the system can handle an increasing number of users without performance degradation.	Agente. (n.d.). 10 Vital LMS Requirements: A Full Checklist. Retrieved from https://agentestudio.com/blog/10-vital-lms-requirements-full-checklist
+Usability	Ensures the system is easy to navigate and use, enhancing user satisfaction.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Security	Protects sensitive information such as grades and personal data from unauthorized access.	VironIT. (n.d.). Functional vs Non-functional Requirements: Examples and Types. Retrieved from https://vironit.com/functional-vs-non-functional-requirements-examples-and-types
+Data Backup and Recovery	Ensures data integrity by regularly backing up data and providing mechanisms for data recovery in case of a system failure.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Cross-Platform Compatibility	Allows users to access the LMS from various devices and operating systems, increasing accessibility.	Agente. (n.d.). 10 Vital LMS Requirements: A Full Checklist. Retrieved from https://agentestudio.com/blog/10-vital-lms-requirements-full-checklist
+Performance	Ensures the system responds quickly to user actions, providing a smooth user experience.	VironIT. (n.d.). Functional vs Non-functional Requirements: Examples and Types. Retrieved from https://vironit.com/functional-vs-non-functional-requirements-examples-and-types
+  
+
+Assumptions
+Assumption	Rationale for Requirement	Source(s), APA format
+Internet Access	Assumes all users will have a stable internet connection to access the LMS.	Inoxoft. (n.d.). Key LMS Requirements You Should Be Aware. Retrieved from https://inoxoft.com/key-lms-requirements-you-should-be-aware
+Basic Computer Literacy	Assumes all users have basic knowledge of how to operate a computer and navigate web-based systems.	Agente. (n.d.). 10 Vital LMS Requirements: A Full Checklist. Retrieved from https://agentestudio.com/blog/10-vital-lms-requirements-full-checklist
+
+Limitation	Rationale for Requirement	Source(s), APA format
+Budget Constraints	Limits the extent of features and customizations that can be implemented due to financial restrictions.	VironIT. (n.d.). Functional vs Non-functional Requirements: Examples and Types. Retrieved from https://vironit.com/functional-vs-non-functional-requirements-examples-and-types
+User Adaptation Time	Recognizes that there will be a learning curve for users to become proficient with the new system.	Agente. (n.d.). 10 Vital LMS Requirements: A Full Checklist. Retrieved from https://agentestudio.com/blog/10-vital-lms-requirements-full-checklist
+
+
