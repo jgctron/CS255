@@ -1,0 +1,39 @@
+
+Analysis and Improvement of UML Diagrams for ATM Use Case
+Diagram Interpretation:
+The provided UML activity and sequence diagrams illustrate the use case of an ATM cash withdrawal. The diagrams show the sequence of events where the user interacts with the ATM to withdraw cash. The interactions involved include inserting the ATM card, entering the PIN, verifying the PIN, entering the withdrawal amount, checking the account balance, dispensing cash, and returning the card. The information passed back and forth includes the PIN, account balance verification, and withdrawal amount.
+Design Analysis:
+Upon reviewing these diagrams, I have identified two significant security deficiencies:
+No Maximum Attempts for PIN Entries:
+There is no stated maximum for PIN attempts before lockout. This is crucial as it currently allows an unlimited number of attempts, enabling anyone to repeatedly guess the PIN. I would address this by adding a sequence that states after three failed PIN attempts, the ATM retains the card.
+No Timeout for Inactivity:
+The diagrams do not account for inactivity if a user walks away after entering their PIN but does not proceed to request cash. This could leave the ATM vulnerable. I would fix this by adding a timer for inactivity that resets the session and ejects the card if no action is taken within a specified time.
+Reconstructed Sequence Diagram:
+To address the first deficiency, the sequence diagram was modified to include steps for handling incorrect PIN entries and card retention after three failed attempts. Additionally, a timeout for inactivity was added to enhance security.
+Improved Sequence Diagram Steps:
+User -> ATM: Insert card
+ATM -> User: Prompt for PIN
+User -> ATM: Enter PIN
+ATM -> Bank Server: Verify PIN
+Bank Server -> ATM: PIN Incorrect
+ATM -> User: Prompt to Re-enter PIN or Cancel
+User -> ATM: Re-enter PIN
+ATM -> Bank Server: Verify PIN
+Bank Server -> ATM: PIN Incorrect
+ATM -> User: Prompt to Re-enter PIN or Cancel
+User -> ATM: Re-enter PIN
+ATM -> Bank Server: Verify PIN
+Bank Server -> ATM: PIN Incorrect
+ATM: Retain Card
+User -> ATM: Cancel Transaction (optional)
+ATM -> User: Prompt for Withdrawal Amount
+User -> ATM: Enter Amount
+ATM -> Bank Server: Check Balance
+Bank Server -> ATM: Sufficient Funds
+ATM -> User: Dispense Cash, Return Card, Print Receipt
+ATM: Start Inactivity Timer
+User -> ATM: Action within timer period
+ATM: Reset Inactivity Timer
+
+ 
+
