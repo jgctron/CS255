@@ -1,0 +1,61 @@
+Model Application: DriverPass System
+
+ Process Model Application A process modeling approach for the DriverPass project would be to develop a series of diagrams that describe the process or workflows for various aspects of the system. This would allow for the visualisation of the process flow as well as the capture all the functional requirements.
+
+Flowchart/Diagram Steps:
+
+Identify key processes such as user registration, scheduling driving lessons, and taking practice exams.
+
+Create flowcharts for each process to detail the steps involved from start to finish.
+
+ Make sure that the decisions represented by the flow are clearly reflected in the diagram, such as checking the user’s identity and conflicts of schedule.
+
+Advantages:
+
+Provides a clear visual representation of the system’s processes.
+
+Helps identify potential bottlenecks or inefficiencies in the workflow.
+
+Facilitates communication between stakeholders and developers.
+
+Disadvantages:
+
+May become complex and difficult to manage for large systems.
+
+Requires frequent updates as the system evolves, which can be time-consuming.
+
+ Object Model Application An object modelling approach to the DriverPass project would essentially break down the system into components and model each component as an object possessing certain attributes and exhibiting particular behaviours. In this way, it would be ideal for capturing the data structure and behaviour of system components.
+
+Class Diagram Steps:
+
+Identify the main objects such as User, Lesson, Car, and Package.
+
+Define the attributes and methods for each object.
+
+Establish relationships between objects, such as inheritance and associations.
+
+Advantages:
+
+Promotes reusability and modularity of the system components.
+
+Provides a clear structure for the data and functionality of the system.
+
+Facilitates maintenance and scalability of the system.
+
+Disadvantages:
+
+Requires a thorough understanding of object-oriented principles.
+
+Can be challenging to design if the requirements are not well-defined.
+
+Model Comparison
+
+Process Model Advantages: Clear visual representation, easy to communicate, helps identify workflow inefficiencies.
+
+Process Model Disadvantages: Complexity, frequent updates needed.
+
+Object Model Advantages: Reusability, modularity, clear structure, facilitates maintenance.
+
+Object Model Disadvantages: Requires understanding of object-oriented principles, challenging to design without clear requirements.
+
+
