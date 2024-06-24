@@ -1,0 +1,41 @@
+Introduction This assignment evaluates an object model for Hamp Crafts' new online storefront. The goal is to interpret the UML class diagram and assess how well it meets the business's needs, considering both object-oriented and process-oriented perspectives.
+Interpretation of Object Model for Online Storefront
+Functions of the Online Storefront The online storefront for Hamp Crafts includes several key functions:
+
+Customer Registration and Profile Management: Represented by the Customer class, which includes attributes such as customerName, address, email, creditCardInfo, shippingInfo, and accountBalance. Methods include register(), login(), and updateProfile().
+Shopping Cart Management: Represented by the Shopping Cart class, with attributes like cartID, productID, quantity, and dateAdded. Methods include addCartItem(), updateQuantity(), viewCartDetails(), and checkOut().
+Order Processing: Represented by the Order class, which includes attributes such as orderID, dateCreated, dateShipped, customerName, customerID, status, and shippingID. The method placeOrder() is included.
+Shipping Information Management: Represented by the Shipping Info class, with attributes like shippingID, shippingType, shippingCost, and shippingRegionID. Methods include updateShippingInfo().
+Administrative Functions: Represented by the Administrator class, which includes attributes such as adminName and email. The method updateCatalog() is included.
+Order Details Management: Represented by the Order Details class, with attributes like orderID, productID, productName, quantity, unitCost, and subtotal. The method calcPrice() is included.
+
+Classes of Users The UML diagram identifies different classes of users:
+Customer: Users who register, manage their profile, place orders, and manage their shopping cart.
+Administrator: Users who update the catalog and manage the backend.
+Associations Between Classes
+The Customer class is associated with the User class through inheritance.
+The Customer class has a one-to-many relationship with the Shopping Cart class.
+The Order class has a one-to-many relationship with the Order Details class.
+The Order class is associated with the Customer and Shipping Info classes.
+Usage of Variables and Functions
+Customer: Uses methods such as register(), login(), and updateProfile() to manage their account.
+Shopping Cart: Utilizes methods such as addCartItem(), updateQuantity(), viewCartDetails(), and checkOut() to manage cart items.
+Order: Uses the placeOrder() method to create new orders.
+Shipping Info: Uses the updateShippingInfo() method to manage shipping details.
+Administrator: Uses the updateCatalog() method to manage the product catalog.
+Order Details: Uses the calcPrice() method to calculate the total price of an order.
+
+Capturing Hamp Crafts' Desired Functionality The object model captures most of Hamp Crafts' needs, including customer registration, profile management, shopping cart management, order processing, and administrative functions. However, it does not explicitly mention transaction completion notifications and customer support features.
+Type of Aggregation Represented by Solid Diamond The solid diamond represents composition, a strong form of aggregation indicating that the Order class cannot exist without the Order Details class, and the Customer class cannot exist without the User class. This implies that Order is a composite of Order Details and is responsible for their lifecycle. The solid diamond is appropriate because it signifies a whole-part relationship where the part (e.g., Order Details) is integral to the whole (Order).
+
+Comparison Between Process and Object Models
+Process Model Description A process model describes the system by outlining the flow of activities and processes. It makes it easier to understand the sequence of operations, data flow, and dependencies between processes. However, representing the static structure and relationships between different entities can be challenging.
+Object Model Description An object model describes the system by defining the classes, attributes, methods, and relationships. It makes it easier to understand the system's structure, behavior of objects, and their interactions. However, it might be more complex to depict dynamic aspects such as workflow and process sequences compared to a process model.
+Conclusion The UML class diagram effectively represents Hamp Crafts' new online storefront's key functionalities and user interactions. While the object model captures most requirements, it could be enhanced by explicitly addressing transaction notifications and customer support features. Both process and object models offer valuable perspectives, with the process model focusing on workflow and the object model on structure and interactions.
+References
+Booch, G., Rumbaugh, J., & Jacobson, I. (2005). The Unified Modeling Language User Guide (2nd ed.). Addison-Wesley.
+Fowler, M. (2004). UML Distilled: A Brief Guide to the Standard Object Modeling Language (3rd ed.). Addison-Wesley.
+Larman, C. (2002). Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd ed.). Prentice Hall.
+Sommerville, I. (2011). Software Engineering (9th ed.). Addison-Wesley.
+
+
